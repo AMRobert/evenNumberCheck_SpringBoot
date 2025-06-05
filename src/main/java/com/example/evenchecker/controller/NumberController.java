@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class NumberController {
 
     @GetMapping("/")
-    public String show() {
+    public String showForm() {
         return "input";
     }
 
